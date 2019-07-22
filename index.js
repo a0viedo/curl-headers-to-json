@@ -11,7 +11,7 @@ const stdin = process.stdin;
 const stdout = process.stdout;
 
 if (isTTY && args.length === 0) {
-  console.log('Usage: ');
+  console.log('Usage: npx curl-headers-to-json headers.txt');
 } else if (isTTY && args.length !== 0) {
   handleShellArguments();
 } else {
