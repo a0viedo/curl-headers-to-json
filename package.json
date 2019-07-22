@@ -1,0 +1,15 @@
+{
+  "name": "curl-headers-to-json",
+  "bin": {
+    "curl-headers-to-json": "./index.js"
+  },
+  "version": "1.0.0",
+  "description": "Formats cURL headers into JSON format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["curl", "json"],
+  "author": "Alejandro Oviedo <alejandro.oviedo.g@gmail.com>",
+  "license": "MIT"
+}
