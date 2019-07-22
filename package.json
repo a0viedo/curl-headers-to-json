@@ -7,9 +7,12 @@
   "description": "Formats cURL headers into JSON format",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
-  "keywords": ["curl", "json"],
+  "keywords": [
+    "curl",
+    "json"
+  ],
   "author": "Alejandro Oviedo <alejandro.oviedo.g@gmail.com>",
   "license": "MIT"
 }
